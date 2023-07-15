@@ -3,4 +3,4 @@
 The state diagram of the following code is following
 
 
-![state diagram](./state.png)
+![State Diagram](https://github.com/heyLaksh/intelrepo/blob/main/docs/state.png)
