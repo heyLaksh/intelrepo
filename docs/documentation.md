@@ -20,23 +20,7 @@ Outputs:
 
 4. State Diagram:
 The state diagram is as follows:
-
-           _____ 1 _____                 _____ 1 _____
-          |             |               |             |
-    Room0 |             | Room1   Room4 |             | Room5
-  ________|             |_______________|             |________
-          |             |               |             |
-    0     V 1        0  V 1         0  V 1         0  V 1
-  ________       ________       ________       ________       ________
-  |            |             |             |             |             |
-Room0 |  Room1 |  Room2 |  Room3 |  Room4 |  Room5 |  Room6 |  Room7 |
-  ________       ________       ________       ________       ________
-          |             |               |             |
-    0     V 1        0  V 1         0  V 1         0  V 1
-          |             |               |             |
-          |_____ 1 _____|               |_____ 1 _____|
-          |                                         |
-          |___________________ 0 __________________|
+![State Diagram](./state.png?raw=true "State Diagram")
 
 5. Algorithm for Moore Machine Implementation:
 1. Initialize the current state as Room0.
