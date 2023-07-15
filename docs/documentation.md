@@ -20,6 +20,9 @@ Outputs:
 
 4. State Diagram:
 The state diagram is as follows:
+
+
+
 ![State Diagram](./state.png?raw=true "State Diagram")
 
 5. Algorithm for Moore Machine Implementation:
