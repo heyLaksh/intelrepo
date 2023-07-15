@@ -2,16 +2,16 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity FigoFSM is
+entity rover is
   port (
     clk          : in  std_logic;
     reset        : in  std_logic;
     travel_plan  : in  std_logic;
     current_loc  : out std_logic_vector(2 downto 0)
   );
-end entity FigoFSM;
+end entity rover;
 
-architecture behavioral of FigoFSM is
+architecture behavioral of rover is
   type state_type is (Room0, Room1, Room2, Room3, Room4, Room5, Room6, Room7);
   signal current_state, next_state : state_type;
 begin
