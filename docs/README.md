@@ -1,6 +1,5 @@
-# State Diagram
+# Structure
 
-The state diagram of the following code is following
-
-
-![State Diagram](state.png?raw=true "State Diagram")
+- code directory contains algorithm and codes
+- data contains assumptions, inputs and outputs
+- docs contains the documentation
